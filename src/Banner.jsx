@@ -32,6 +32,7 @@ const Banner = () => {
                                 Organic
                             </div>
                         </div>
+                        <a href="#" className="btn btn-primary">learn more</a>
                     </div>    
                 </div>
             </section>
