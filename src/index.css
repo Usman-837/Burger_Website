@@ -6,12 +6,24 @@
 @tailwind utilities;
 
 
-@layer {
+@layer base {
     body {
         @apply text-whiteColor bg-primaryColor tracking-wider font-dmsans;
     }
 
     section {
         @apply pt-16 pb-4 max-md:pt-20;
+    }
+}
+
+@layer utilities{
+    .home__title {
+        @apply text-4xl font-oswald font-bold uppercase max-lg:text-6xl;
+    }
+    .separator {
+        @apply  w-28 h-[2px] bg-secondaryColor my-5;
+    }
+    .paragraph {
+        @apply text-paragraphColor text-xs leading-5;
     }
 }
