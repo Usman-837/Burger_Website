@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import Banner from "./Banner"
 import Categories from "./Categories"
 import Promo from "./Promo"
+import About from "./About"
 
 const App = () => {
     return(
@@ -12,6 +13,7 @@ const App = () => {
             <Banner/>
             <Categories/>
             <Promo/>
+            <About/>
         </>
     )
 }
