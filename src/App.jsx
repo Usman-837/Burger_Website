@@ -3,6 +3,7 @@ import "./index.css"
 import Navbar from "./Navbar"
 import Banner from "./Banner"
 import Categories from "./Categories"
+import Promo from "./Promo"
 
 const App = () => {
     return(
@@ -10,6 +11,7 @@ const App = () => {
             <Navbar/>
             <Banner/>
             <Categories/>
+            <Promo/>
         </>
     )
 }
