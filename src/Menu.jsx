@@ -9,6 +9,11 @@ import friesimg2 from "./images/snack-2.png"
 import friesimg3 from "./images/snack-3.png"
 import friesimg4 from "./images/snack-4.png"
 import friesimg5 from "./images/snack-5.png"
+import beverageimg1 from "./images/beverage-1.png"
+import beverageimg2 from "./images/beverage-2.png"
+import beverageimg3 from "./images/beverage-3.png"
+import beverageimg4 from "./images/beverage-4.png"
+import beverageimg5 from "./images/beverage-5.png"
 
 
 const Menu = () => {
@@ -73,6 +78,36 @@ const Menu = () => {
             des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
             price: "$35.00",
             image: friesimg5
+        },
+        {
+            title: "SWEET SMOOTHIE",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: beverageimg1
+        },
+        {
+            title: "SWEET SMOOTHIE",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: beverageimg2
+        },
+        {
+            title: "SWEET SMOOTHIE",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: beverageimg3
+        },
+        {
+            title: "SWEET SMOOTHIE",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: beverageimg4
+        },
+        {
+            title: "SWEET SMOOTHIE",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: beverageimg5
         },
     ]
 
