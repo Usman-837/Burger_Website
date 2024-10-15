@@ -4,6 +4,12 @@ import menuimg2 from "./images/burger-2.png"
 import menuimg3 from "./images/burger-3.png"
 import menuimg4 from "./images/burger-4.png"
 import menuimg5 from "./images/burger-5.png"
+import friesimg1 from "./images/snack-1.png"
+import friesimg2 from "./images/snack-2.png"
+import friesimg3 from "./images/snack-3.png"
+import friesimg4 from "./images/snack-4.png"
+import friesimg5 from "./images/snack-5.png"
+
 
 const Menu = () => {
 
@@ -37,7 +43,37 @@ const Menu = () => {
             des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
             price: "$35.00",
             image: menuimg5
-        }
+        },
+        {
+            title: "FRENCH FRIES",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: friesimg1
+        },
+        {
+            title: "FRENCH FRIES",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: friesimg2
+        },
+        {
+            title: "FRENCH FRIES",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: friesimg3
+        },
+        {
+            title: "FRENCH FRIES",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: friesimg4
+        },
+        {
+            title: "FRENCH FRIES",
+            des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+            price: "$35.00",
+            image: friesimg5
+        },
     ]
 
     return (
