@@ -6,6 +6,7 @@ import Categories from "./Categories"
 import Promo from "./Promo"
 import About from "./About"
 import Menu from "./Menu"
+import Review from "./review"
 
 const App = () => {
     return(
@@ -16,6 +17,7 @@ const App = () => {
             <Promo/>
             <About/>
             <Menu/>
+            <Review/>
         </>
     )
 }
