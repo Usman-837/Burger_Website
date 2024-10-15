@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Menu = () => {
     return (
@@ -9,6 +9,14 @@ const Menu = () => {
                         <h2 className="section__title">OUR BEST MENU</h2>
                         <div className="separator mx-auto"></div>
                         <p className="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium totam dolores asperiores eaque ea architecto nostrum, delectus hic vitae iste. Nemo soluta, suscipit porro sit dignissimos libero magni in.</p>
+                        <div className="tabs_wrap">
+                            <ul className="flex flex-wrap justify-center gap-3 py-10">
+                                <li className="btn bg-primaryColorLight active">All</li>
+                                <li className="btn bg-primaryColorLight">Food</li>
+                                <li className="btn bg-primaryColorLight">Snack</li>
+                                <li className="btn bg-primaryColorLight">Beverage</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
