@@ -7,6 +7,7 @@ import Promo from "./Promo"
 import About from "./About"
 import Menu from "./Menu"
 import Review from "./review"
+import Contact from "./Contact"
 
 const App = () => {
     return(
@@ -18,6 +19,7 @@ const App = () => {
             <About/>
             <Menu/>
             <Review/>
+            <Contact/>
         </>
     )
 }
