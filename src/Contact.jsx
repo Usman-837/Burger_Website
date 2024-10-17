@@ -9,6 +9,9 @@ const Contact = () => {
                     <h2 className="section__title text-blackColor">GET EXCLUSIVE UPDATE</h2>
                     <p className="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
+                <div>
+                    <input type="email" placeholder="Email address" className="p-2 text-blackColor rounded-lg outline-none md:w-full" />
+                </div>
             </div>
         </section>
         </>
