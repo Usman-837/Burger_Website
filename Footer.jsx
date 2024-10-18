@@ -16,6 +16,15 @@ const Footer = () => {
                             </p>
                         </div>
                     </li>
+                    <li>
+                        <div className="flex flex-col gap-3">
+                            <h3 className="text-lg uppercase font-oswald">SUPPORT</h3>
+                            <a href="" className="text-xs hover:text-secondaryColor">FAQ's</a>
+                            <a href="" className="text-xs hover:text-secondaryColor">Privacy Policy</a>
+                            <a href="" className="text-xs hover:text-secondaryColor">Term & Condition</a>
+                            <a href="" className="text-xs hover:text-secondaryColor">Contact</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
