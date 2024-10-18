@@ -33,6 +33,13 @@ const Footer = () => {
                                 +1 000 000 0000
                             </p>
                         </div>
+                        <div className="space-y-2">
+                            <h3 className="text-lg uppercase font-oswald">email</h3>
+                            <p className="flex items-center gap-2 text-xs">
+                                <i className="fa-solid fa-envelope text-lg text-secondaryColor"></i>
+                                burger.infor@email.com
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
