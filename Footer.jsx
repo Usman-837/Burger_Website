@@ -25,6 +25,15 @@ const Footer = () => {
                             <a href="" className="text-xs hover:text-secondaryColor">Contact</a>
                         </div>
                     </li>
+                    <li className="space-y-8">
+                        <div className="space-y-2">
+                            <h3 className="text-lg uppercase font-oswald">phone</h3>
+                            <p className="flex items-center gap-2 text-xs">
+                                <i className="fa-solid fa-phone text-lg text-secondaryColor"></i>
+                                +1 000 000 0000
+                            </p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
