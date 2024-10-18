@@ -8,6 +8,7 @@ import About from "./About"
 import Menu from "./Menu"
 import Review from "./review"
 import Contact from "./Contact"
+import Footer from "../Footer"
 
 const App = () => {
     return(
@@ -20,6 +21,7 @@ const App = () => {
             <Menu/>
             <Review/>
             <Contact/>
+            <Footer/>
         </>
     )
 }
