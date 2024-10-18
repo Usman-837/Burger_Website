@@ -49,6 +49,15 @@ const Footer = () => {
                                 address goes here
                             </p>
                         </div>
+                        <div className="space-y-2">
+                            <h3 className="text-lg uppercase font-oswald">follow us</h3>
+                            <div className="space-x-3">
+                                <a href=""><i className="fa-brands fa-facebook-f text-lg cursor-pointer text-secondaryColor hover:-translate-y-1 ease-in duration-200"></i></a>
+                                <a href=""><i className="fa-brands fa-twitter text-lg cursor-pointer text-secondaryColor hover:-translate-y-1 ease-in duration-200"></i></a>
+                                <a href=""><i className="fa-brands fa-square-instagram text-lg cursor-pointer text-secondaryColor hover:-translate-y-1 ease-in duration-200"></i></a>
+                                <a href=""><i className="fa-brands fa-facebook-f text-lg cursor-pointer text-secondaryColor hover:-translate-y-1 ease-in duration-200"></i></a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
