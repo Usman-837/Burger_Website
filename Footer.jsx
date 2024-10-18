@@ -5,7 +5,7 @@ const Footer = () => {
         <>
         <section className="footer">
             <div className="container">
-                <ul className="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2">
+                <ul className="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4">
                     <li>
                         <div className="space-y-3">
                             <a href="" className="text-4xl font-oswald uppercase">
@@ -60,6 +60,10 @@ const Footer = () => {
                         </div>
                     </li>
                 </ul>
+                <div className="flex flex-col items-center border-t border-primaryColorLight py-5 md:flex-row justify-between">
+                    <p className="paragraph">Burger Template Kit by Usman</p>
+                    <p className="paragraph">Copyright @ 2024. All rights reserved.</p>
+                </div>
             </div>
         </section>
         </>
