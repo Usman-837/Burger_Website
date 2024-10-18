@@ -41,6 +41,15 @@ const Footer = () => {
                             </p>
                         </div>
                     </li>
+                    <li className="space-y-8">
+                        <div className="space-y-2">
+                            <h3 className="text-lg uppercase font-oswald">address</h3>
+                            <p className="flex items-center gap-2 text-xs">
+                                <i className="fa-solid fa-location-dot text-lg text-secondaryColor"></i>
+                                address goes here
+                            </p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
