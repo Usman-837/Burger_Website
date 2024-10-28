@@ -144,25 +144,25 @@ const Menu = () => {
                         <div className="tabs_wrap">
                             <ul className="flex flex-wrap justify-center gap-3 py-10">
                                 <li
-                                    className={`btn bg-primaryColorLight ${activeCategory === "All" ? "active" : ""}`}
+                                    className={`btn bg-primaryColorLight dark:bg-drakColorLight ${activeCategory === "All" ? "active" : ""}`}
                                     onClick={() => setActiveCategory("All")}
                                 >
                                     All
                                 </li>
                                 <li
-                                    className={`btn bg-primaryColorLight ${activeCategory === "Food" ? "active" : ""}`}
+                                    className={`btn bg-primaryColorLight dark:bg-drakColorLight ${activeCategory === "Food" ? "active" : ""}`}
                                     onClick={() => setActiveCategory("Food")}
                                 >
                                     Food
                                 </li>
                                 <li
-                                    className={`btn bg-primaryColorLight ${activeCategory === "Snack" ? "active" : ""}`}
+                                    className={`btn bg-primaryColorLight dark:bg-drakColorLight ${activeCategory === "Snack" ? "active" : ""}`}
                                     onClick={() => setActiveCategory("Snack")}
                                 >
                                     Snack
                                 </li>
                                 <li
-                                    className={`btn bg-primaryColorLight ${activeCategory === "Beverage" ? "active" : ""}`}
+                                    className={`btn bg-primaryColorLight dark:bg-drakColorLight ${activeCategory === "Beverage" ? "active" : ""}`}
                                     onClick={() => setActiveCategory("Beverage")}
                                 >
                                     Beverage
@@ -175,7 +175,7 @@ const Menu = () => {
                             {
                                 filteredMenu.map((data, index) => (
                                     <li key={index}>
-                                        <div className="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200 lg:h-40">
+                                        <div className="h-56 grid place-items-center bg-primaryColorLight dark:bg-drakColorLight rounded-3xl hover:bg-secondaryColor dark:hover:bg-secondaryColor ease-linear duration-200 lg:h-40">
                                             <img src={data.image} alt={data.title} className="w-40 hover:scale-110 ease-linear duration-200 md:w-40 lg:w-24" />
                                         </div>
                                         <div className="pt-5">
