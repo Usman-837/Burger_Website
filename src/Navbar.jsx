@@ -6,8 +6,8 @@ const Navbar = () => {
 
     return(
         <>
-            <header className="bg-primaryColor fixed left-0 top-0 w-full z-50">
-                <nav className="container relative h-14 flex justify-between items-center">
+            <header className="bg-primaryColor fixed left-0 top-0 w-full z-50 dark:bg-darkColor">
+                <nav className="container relative h-14 flex justify-between items-center dark:bg-darkColor">
                     <div>
                         <a href="#" className="text-2xl uppercase font-oswald">Bur<span className="text-secondaryColor">ger</span></a>
                     </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 {/* Menu with Toggle Functionality */}
 
                 {
-                    menu ? <div className="absolute top-0 left-0 w-full py-14 bg-primaryColor border-b border-secondaryColor flex flex-col text-center gap-5">
+                    menu ? <div className="absolute top-0 left-0 w-full py-14 bg-primaryColor border-b border-secondaryColor flex flex-col text-center gap-5 dark:bg-darkColor">
                                 <a href="#home" className="hover:text-secondaryColor ease-in duration-200" onClick={()=> setMenu(!menu)}>Home</a>
                                 <a href="#about" className="hover:text-secondaryColor ease-in duration-200" onClick={()=> setMenu(!menu)}>About Us</a>
                                 <a href="#menu" className="hover:text-secondaryColor ease-in duration-200" onClick={()=> setMenu(!menu)}>Menu</a>
