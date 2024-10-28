@@ -6,7 +6,7 @@ const Footer = () => {
         <section className="footer">
             <div className="container">
                 <ul className="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4">
-                    <li>
+                    <li data-aos="fade-right">
                         <div className="space-y-3">
                             <a href="" className="text-4xl font-oswald uppercase">
                                 Bur<span className="text-secondaryColor">ger</span>
@@ -16,7 +16,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                         <div className="flex flex-col gap-3">
                             <h3 className="text-lg uppercase font-oswald">SUPPORT</h3>
                             <a href="" className="text-xs hover:text-secondaryColor">FAQ's</a>
@@ -25,7 +25,7 @@ const Footer = () => {
                             <a href="" className="text-xs hover:text-secondaryColor">Contact</a>
                         </div>
                     </li>
-                    <li className="space-y-8">
+                    <li data-aos="fade-right" className="space-y-8">
                         <div className="space-y-2">
                             <h3 className="text-lg uppercase font-oswald">phone</h3>
                             <p className="flex items-center gap-2 text-xs">
@@ -41,7 +41,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </li>
-                    <li className="space-y-8">
+                    <li data-aos="fade-right" className="space-y-8">
                         <div className="space-y-2">
                             <h3 className="text-lg uppercase font-oswald">address</h3>
                             <p className="flex items-center gap-2 text-xs">
@@ -60,7 +60,7 @@ const Footer = () => {
                         </div>
                     </li>
                 </ul>
-                <div className="flex flex-col items-center border-t border-primaryColorLight dark:border-drakColorLight py-5 md:flex-row justify-between">
+                <div data-aos="fade-right" className="flex flex-col items-center border-t border-primaryColorLight dark:border-drakColorLight py-5 md:flex-row justify-between">
                     <p className="paragraph">Burger Template Kit by Usman</p>
                     <p className="paragraph">Copyright @ 2024. All rights reserved.</p>
                 </div>
