@@ -8,7 +8,7 @@ const Promo = () => {
         <section>
             <div className="container flex flex-col gap-5 lg:gap-10 lg:flex-row">
                 {/* card 1 */}
-                <div className="bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
+                <div data-aos="fade-up-right" className="bg-primaryColorLight dark:bg-drakColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
                     <img src={promoimg1} alt="promo image" className="w-40 mx-auto hover:animate-movingY md:mx-5"/>
                     <div className="space-y-2 pt-5 md:pt-0">
                         <p className="text-xs text-secondaryColor">Payday promo</p>
@@ -18,7 +18,7 @@ const Promo = () => {
                     </div>
                 </div>
                  {/* card 2 */}
-                 <div className="bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
+                 <div data-aos="fade-up" className="bg-primaryColorLight dark:bg-drakColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
                     <img src={promoimg2} alt="promo image" className="w-40 mx-auto hover:animate-movingY md:mx-5"/>
                     <div className="space-y-2 pt-5 md:pt-0">
                         <p className="text-xs text-secondaryColor">Payday promo</p>
@@ -28,7 +28,7 @@ const Promo = () => {
                     </div>
                 </div>
                   {/* card 3 */}
-                  <div className="bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
+                  <div data-aos="fade-up-left" className="bg-primaryColorLight dark:bg-drakColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
                     <img src={promoimg2} alt="promo image" className="w-40 mx-auto hover:animate-movingY md:mx-5"/>
                     <div className="space-y-2 pt-5 md:pt-0">
                         <p className="text-xs text-secondaryColor">Payday promo</p>

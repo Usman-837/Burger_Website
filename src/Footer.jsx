@@ -60,7 +60,7 @@ const Footer = () => {
                         </div>
                     </li>
                 </ul>
-                <div data-aos="fade-right" className="flex flex-col items-center border-t border-primaryColorLight dark:border-drakColorLight py-5 md:flex-row justify-between">
+                <div className="flex flex-col items-center border-t border-primaryColorLight dark:border-darkColorLight py-5 md:flex-row justify-between">
                     <p className="paragraph">Burger Template Kit by Usman</p>
                     <p className="paragraph">Copyright @ 2024. All rights reserved.</p>
                 </div>

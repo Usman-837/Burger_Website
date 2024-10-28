@@ -81,9 +81,9 @@ const Review = () => {
 
     return (
         <>
-            <section id="review">
+            <section id="review" className="dark:bg-drakColorLight">
                 <div className="container">
-                    <div className="max-w-md mx-auto text-center">
+                    <div data-aos="zoom-out-right" className="max-w-md mx-auto text-center">
                         <h2 className="section__title">CUSTOMER REVIEW</h2>
                         <div className="separator mx-auto"></div>
                         <p className="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium totam dolores asperiores eaque ea architecto nostrum, delectus hic vitae iste. Nemo soluta, suscipit porro sit dignissimos libero magni in.</p>
@@ -93,8 +93,8 @@ const Review = () => {
                             <Slider {...settings}>
                                 {   
                                 customer_review.map((data, index) => (
-                                    <li key={index}>
-                                        <div className="flex flex-col gap-5 bg-primaryColorLight rounded-lg p-6 mx-2">
+                                    <li data-aos="zoom-in-up" key={index}>
+                                        <div className="flex flex-col gap-5 bg-primaryColorLight dark:bg-darkColor rounded-lg p-6 mx-2">
                                             <p className="paragraph">{data.des}</p>
                                             <div className="flex items-center">
                                                 <img src={data.img} alt="review image" className="w-12 h-12 rounded-full"/>
