@@ -17,7 +17,7 @@ export default {
         greenColor: "#007936",
         redColor: "#cc3433",
         darkColor: "#000",
-        darkColorLight: "#171717",
+        drakColorLight: "#171717",
       },
       keyframes: {
         move: {
