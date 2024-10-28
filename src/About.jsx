@@ -6,10 +6,10 @@ const About = () => {
         <>
         <section id="about">
             <div className="container flex flex-col gap-10 md:flex-row">
-                <div className="flex-1">
+                <div data-aos="fade-right" className="flex-1">
                     <img src={about} alt="about image" className="rounded-lg"/>
                 </div>
-                <div className="flex-1">
+                <div data-aos="fade-left" className="flex-1">
                     <h2 className="section__title">FIND FOOD AND DRINKS, ALL-IN-ONE PLACE FOR YOUR BEST TASTE.</h2>
                     <div className="separator"></div>
                     <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt cum, ullam quisquam facilis hic odit modi ipsam fuga, sed quis odio repellendus, est iste nisi nobis dignissimos accusantium? Ipsa, officia!</p>
