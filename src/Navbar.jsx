@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
+import DarkMode from "./DarkMode"
 
 const Navbar = () => {
 
@@ -19,7 +20,7 @@ const Navbar = () => {
                         <a href="#contact" className="hover:text-secondaryColor ease-in duration-200">Contact</a>
                     </div>
                     <div className="flex items-center gap-5">
-                        <i className="ri-moon-line cursor-pointer ml-4 text-xl"></i>
+                        <DarkMode/>
                         <div className="cursor-pointer text-xl md:hidden" onClick={()=>setMenu(!menu)}>
                             <i className="ri-menu-2-line"></i>
                         </div>
